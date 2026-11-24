@@ -1,0 +1,21 @@
+{
+  "title": "Campus Flow Builder - Room 301",
+  "now": 540,
+  "maxDuration": 120,
+  "dayEnd": 1440,
+  "bookings": [[600, 660]],
+  "fields": [
+    {"key": "start", "label": "Start time (minutes after midnight)", "type": "number", "default": 660},
+    {"key": "duration", "label": "Duration (minutes)", "type": "number", "default": 60},
+    {"key": "blocked", "label": "Room blocked", "type": "checkbox", "default": false}
+  ],
+  "messages": {
+    "invalidStart": "Start must be a whole minute between 0 and 1440.",
+    "past": "Start must be later than 09:00.",
+    "invalidDuration": "Duration must be a whole number from 1 to 120 minutes.",
+    "dayEnd": "The interval must end by 24:00.",
+    "blocked": "Room 301 is blocked.",
+    "overlap": "Overlaps the existing 10:00-11:00 booking.",
+    "available": "Room 301 is available for this interval."
+  }
+}

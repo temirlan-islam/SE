@@ -1,0 +1,17 @@
+
+> vite-react-typescript-starter@0.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 C:/Users/Admin/Documents/Codex/2026-11-17/referenced-chatgpt-conversation-this-is-an/work/practice11/project
+
+ ✓ src/practice12.test.ts (8 tests) 4ms
+ ✓ src/availability.test.ts (9 tests) 4ms
+ ✓ src/preview.test.ts (3 tests) 3ms
+ ✓ src/explanation.test.ts (16 tests) 19ms
+
+ Test Files  4 passed (4)
+      Tests  36 passed (36)
+   Start at  18:42:06
+   Duration  1.71s (transform 257ms, setup 0ms, collect 370ms, tests 30ms, environment 1ms, prepare 937ms)
+
